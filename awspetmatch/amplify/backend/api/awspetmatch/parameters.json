@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "awspetmatch",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authawspetmatchbdd017d0",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
