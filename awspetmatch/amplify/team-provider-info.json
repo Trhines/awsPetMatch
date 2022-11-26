@@ -17,6 +17,12 @@
       },
       "api": {
         "awspetmatch": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1u2on36tapprv",
+          "type": "cicd"
+        }
       }
     }
   }
